@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "my-module-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "prepare": "panda codegen"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.6.0",
+    "nuxt": "latest"
+  }
+}
