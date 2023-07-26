@@ -1,7 +1,10 @@
 <template>
   <div class="container mx-auto flex justify-center">
     <div class="w-full max-w-md px-2 py-16 sm:px-0">
-      <ArkTabs v-slot="{ selectedValue }" default-value="Popular">
+      <ArkTabs
+        v-slot="{ selectedValue }"
+        default-value="Popular"
+      >
         <ArkTabList class="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           <ArkTabTrigger
             v-for="category in Object.keys(categories)"

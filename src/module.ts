@@ -27,7 +27,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     prefix: "Ark",
   },
-  async setup(options, nuxt) {
+  async setup(options) {
     const resolver  = createResolver(import.meta.url);
 
     const entrypoint = await resolver.resolvePath("@ark-ui/vue"); // node_modules/@ark-ui/vue/index.mjs
