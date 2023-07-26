@@ -5,11 +5,10 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxi generate",
-    "prepare": "panda codegen"
+    "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.6.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "latest"
   }
 }
