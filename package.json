@@ -1,8 +1,15 @@
 {
   "name": "nuxt-ark-ui",
   "version": "0.0.5",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "Ark UI module for Nuxt",
+  "homepage": "https://github.com/iamdin/nuxt-ark-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamdin/nuxt-ark-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamdin/nuxt-ark-ui/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -16,6 +23,10 @@
   "types": "./dist/types.d.ts",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "ark-ui",
+    "nuxt"
   ],
   "scripts": {
     "prepack": "nuxt-module-build",
