@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/iamdin/nuxt-ark-ui/compare/v0.0.5...v0.0.6)
+
+### 🏡 Chore
+
+- Update package.json ([e28afc8](https://github.com/iamdin/nuxt-ark-ui/commit/e28afc8))
+
+### ❤️  Contributors
+
+- Iamdin <iamdinq@gmail.com>
+
 ## v0.0.5
 
 [compare changes](https://undefined/undefined/compare/v0.0.3...v0.0.5)
