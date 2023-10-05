@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.10
+
+[compare changes](https://github.com/iamdin/nuxt-ark-ui/compare/v0.0.9...v0.0.10)
+
+### 🩹 Fixes
+
+- Update peer ([ae180f8](https://github.com/iamdin/nuxt-ark-ui/commit/ae180f8))
+
+### ❤️  Contributors
+
+- Iamdin <iamdinq@gmail.com>
+
 ## v0.0.9
 
 [compare changes](https://github.com/iamdin/nuxt-ark-ui/compare/v0.0.8...v0.0.9)
