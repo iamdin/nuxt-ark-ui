@@ -51,7 +51,7 @@
     "@nuxt/test-utils": "^3.6.2",
     "@types/node": "^18.16.19",
     "changelogen": "^0.5.4",
-    "eslint": "^8.44.0",
+    "eslint": "^8.50.0",
     "globby": "^13.2.2",
     "nuxt": "^3.6.2",
     "prettier": "^3.0.0",
