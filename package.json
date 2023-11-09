@@ -55,7 +55,7 @@
     "globby": "^13.2.2",
     "nuxt": "^3.7.4",
     "prettier": "^3.0.0",
-    "tsx": "^3.12.7",
+    "tsx": "^4.0.0",
     "vitest": "^0.33.0"
   },
   "peerDependencies": {
