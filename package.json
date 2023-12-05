@@ -56,7 +56,7 @@
     "nuxt": "^3.7.4",
     "prettier": "^3.0.0",
     "tsx": "^3.12.7",
-    "vitest": "^0.33.0"
+    "vitest": "^1.0.0"
   },
   "peerDependencies": {
     "@ark-ui/vue": "^0.8.0"
