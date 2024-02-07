@@ -35,13 +35,22 @@ async function main() {
   const { resolvePath } = createResolver(import.meta.url);
   const entrypoint = await resolvePath("@ark-ui/vue");
 
+  const content = await readFile(entrypoint, "utf-8");
+  const cleanedContent = content.replace(/(\r\n|\n|\r)/gm, " ");
+  const matches =
+    cleanedContent.match(/export\s+{([^}]*)}\sfrom\s'([^;]*)'/gm) || [];
+
   const components = await globby(dirname(entrypoint), {
     onlyDirectories: true,
     deep: 1,
   });
+  console.log("components", components);
+
   const componentExportMap: Record<string, string[]> = Object.fromEntries(
     await Promise.all(
-      components.map(async (component) => {
+      matches.map(async (component) => {
+        console.log("component", join(component, "index.mjs"));
+
         const fileContent = await readFile(join(component, "index.mjs"), {
           encoding: "utf8",
         }).catch(() => undefined);
