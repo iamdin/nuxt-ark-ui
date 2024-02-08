@@ -44,7 +44,7 @@
     "@nuxt/kit": "^3.7.4"
   },
   "devDependencies": {
-    "@ark-ui/vue": "^0.10.0",
+    "@ark-ui/vue": "^0.11.0",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.2",
@@ -60,6 +60,6 @@
     "vitest": "^1.2.2"
   },
   "peerDependencies": {
-    "@ark-ui/vue": "^0.8.0 || ^0.9.0"
+    "@ark-ui/vue": "^0.8.0 || ^0.9.0 || ^0.11.0"
   }
 }
