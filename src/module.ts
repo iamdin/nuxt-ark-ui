@@ -7,10 +7,6 @@ export interface ModuleOptions {
   prefix: string;
 }
 
-const objectKeys = <T extends object>(obj: T) => {
-  return Object.keys(obj) as Array<keyof T>;
-};
-
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: "nuxt-ark-ui",
