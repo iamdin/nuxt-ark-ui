@@ -35,14 +35,7 @@ Ark UI documentation for Vue: https://ark-ui.com/docs/vue/overview/introduction
 1. Add `nuxt-ark-ui` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-ark-ui
-
-# Using yarn
-yarn add --dev nuxt-ark-ui
-
-# Using npm
-npm install --save-dev nuxt-ark-ui
+npx nuxi@latest module add ark-ui
 ```
 
 2. Add `nuxt-ark-ui` to the `modules` section of `nuxt.config.ts`
